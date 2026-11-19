@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lumière | Our Collection</title>
+  <link rel="stylesheet" href="page2.css">
+</head>
+<body>
+
+<header class="header">
+  <a href="index.html" class="logo">
+    Lumière
+    <span>PERFUME & FRAGRANCE</span>
+  </a>
+
+  <nav>
+    <a href="index.html" id="home">خانه</a>
+    <a href="#collection" id="products">محصولات</a>
+    <a href="#about" id="about">درباره ما</a>
+  </nav>
+
+  <div class="header-actions">
+    <button id="languageBtn">EN</button>
+    <span class="cart">🛍️ <b id="cartCount">0</b></span>
+  </div>
+</header>
+
+<section class="hero">
+  <div>
+    <p class="small-title">LUXURY FRAGRANCES</p>
+    <h1 id="heroTitle">دنیای رایحه‌های خاص</h1>
+    <p id="heroText">
+      عطری برای هر لحظه، رایحه‌ای برای ماندگاری در خاطره‌ها
+    </p>
+    <a href="#collection" class="main-btn" id="shopBtn">
+      مشاهده محصولات
+    </a>
+  </div>
+</section>
+
+<section class="collection" id="collection">
+
+  <div class="section-heading">
+    <p>OUR EXCLUSIVE COLLECTION</p>
+    <h2 id="collectionTitle">مجموعه عطرهای ما</h2>
+  </div>
+
+  <input
+    type="text"
+    id="searchInput"
+    placeholder="جستجوی عطر..."
+  >
+
+  <div class="filters">
+    <button class="filter active" data-category="all">همه</button>
+    <button class="filter" data-category="women">زنانه</button>
+    <button class="filter" data-category="men">مردانه</button>
+    <button class="filter" data-category="unisex">یونیسکس</button>
+  </div>
+
+  <div class="products-grid" id="productsGrid">
+
+    <article class="product-card" data-category="women">
+      <img src="https://images.unsplash.com/photo-1594035910387-fea47794261f?w=600" alt="Perfume">
+      <div class="product-info">
+        <p class="category">WOMEN</p>
+        <h3>Miss Dior</h3>
+        <p class="description">رایحه‌ای لطیف و رمانتیک</p>
+        <div class="price">5,800,000 تومان</div>
+        <button class="add-cart">افزودن به سبد خرید</button>
+      </div>
+    </article>
+
+    <article class="product-card" data-category="men">
+      <img src="https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=600" alt="Perfume">
+      <div class="product-info">
+        <p class="category">MEN</p>
+        <h3>Bleu de Chanel</h3>
+        <p class="description">رایحه‌ای شیک و ماندگار</p>
+        <div class="price">7,200,000 تومان</div>
+        <button class="add-cart">افزودن به سبد خرید</button>
+      </div>
+    </article>
+
+    <article class="product-card" data-category="women">
+      <img src="https://images.unsplash.com/photo-1541643600914-78b084683601?w=600" alt="Perfume">
+      <div class="product-info">
+        <p class="category">WOMEN</p>
+        <h3>Coco Mademoiselle</h3>
+        <p class="description">ظرافت و جذابیت زنانه</p>
+        <div class="price">6,500,000 تومان</div>
+        <button class="add-cart">افزودن به سبد خرید</button>
+      </div>
+    </article>
+
+    <article class="product-card" data-category="unisex">
+      <img src="https://images.unsplash.com/photo-1595425970377-c9703cf48b6d?w=600" alt="Perfume">
+      <div class="product-info">
+        <p class="category">UNISEX</p>
+        <h3>Black Orchid</h3>
+        <p class="description">رایحه‌ای عمیق و خاص</p>
+        <div class="price">8,100,000 تومان</div>
+        <button class="add-cart">افزودن به سبد خرید</button>
+      </div>
+    </article>
+
+  </div>
+  <p id="emptyMessage" hidden>محصولی پیدا نشد.</p>
+</section>
+
+<section class="about" id="about">
+  <p>THE ART OF PERFUMERY</p>
+  <h2 id="aboutTitle">زیبایی در هر قطره</h2>
+  <p id="aboutText">
+    در Lumière ما باور داریم هر رایحه داستانی منحصر به فرد دارد.
+    انتخابی خاص برای لحظه‌های فراموش‌نشدنی.
+  </p>
+</section>
+
+<footer>
+  <h2>Lumière</h2>
+  <p>PERFUME & FRAGRANCE</p>
+  <p>© 2026 Lumière. All Rights Reserved.</p>
+  <a href="index.html">بازگشت به صفحه اصلی</a>
+</footer>
+
+<script src="page2.js"></script>
+</body>
+</html>
